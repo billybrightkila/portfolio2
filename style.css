@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+body{
+    padding: 10px;
+}
+@media (min-width:375px) and (max-width:768px) { 
+    .head{
+        margin: 0 0 40px 0;
+    }
+    .menu{
+      display: none;
+    }
+
+    .mobilemenu{
+        background: black;
+        height: 3px;
+        width: 35px;
+        margin: 3px;
+    }
+
+    .mymobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 100px;
+    }
+ 
+    .logoIcon img {
+        width: 80px;
+        height: 40px;
+    }
+
+    .title-MOBILE{
+        margin-top:90px ;
+        padding: 5px;
+    }
+    .title-MOBILE img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+  .billy_one{
+    display: flex;
+  }
+
+  .billiy-One{
+    display: flex;
+    align-items: center;
+  }
+
+  .billy_one h3{
+    color: red;
+  }
+  .twoo{
+    color: red;
+  }
+  
+  .billy_one{
+    display: flex;
+  }
+
+  .billiy-One{
+    display: flex;
+    align-items: center;
+  }
+  .threee{
+    display: flex;
+  }
+  .billy_four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .one ul{
+    display: flex;
+    
+    
+  }
+  .C{
+    color: red;
+  }
+  .three ul{
+    align-items: center;
+    justify-content: center;
+  }
+  .billy_three{
+    display: flex;
+    align-items: center;
+  }
+  .billy_five{
+    display: flex;
+    align-items: center;
+  }
+  .one u{
+    display: flex;
+    color:red
+  }
+  .twot{
+
+   color: red;
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .speaker{
+    display: flex;
+    align-items: center;
+    
+  }
+  .speakers{
+    color: red;
+  }
+  .speakers-card{
+    flex-direction: column;
+    margin-top: 7px;
+    min-width: 400px;
+  }
+  .speakerss{
+display: flex;
+align-items: center;
+justify-content: center;
+
+  }
+    .title{
+        display: flex;
+        margin: 10px;
+        padding: 15px;
+        align-items: center;
+        box-sizing: border-box;
+        justify-content: bolder;
+        color:red;
+        
+   }
+    .image{
+        display: flex; 
+        margin: 5px;
+        padding: 10;   
+        background-color: black;
+    }
+    .p1{
+        
+        display: flex;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 0;
+        text-wrap: nowrap; 
+         max-width: 5px;
+
+    }
+    .p2{
+        display: flex;
+        margin: 10p;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    .p3{
+        display: flex;
+        margin: 15px;
+        padding: 10px;
+        border-radius: bold;
+        
+    }
+    .title ul{
+        display: flex;
+        margin: 15px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        border-radius: bold;
+        
+    }
+    .p4{
+        display: flex;
+        margin: 10px;
+        padding: 20px;
+      
+    }
+    .image_m{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .title U{
+        display: flex;
+        margin: 15px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        text-decoration-color: #fff;
+    }
+    .M{
+        color: black;
+        background-color: black;
+        text-decoration-color: #fff;
+
+    
+    }
+    .cardds{
+        background-color: black;
+        
+    }
+    .cardd-images{
+        display: flex;
+        margin: 10px;
+        color: black;
+        flex-direction: column;
+    } .cardd-images titles{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: bold;
+        gap: 5px;
+        flex-direction: row;
+        margin-top: 20px;
+        
+    }   .cardd-images para{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .p4{
+        display: flex;
+    }
+    .p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: bold;
+        flex-direction: column;
+        
+    }
+    .h2{
+        margin: 0;
+        align-items: center;
+        flex-direction: column;
+        color: red;
+        font-size: 10px;
+
+    }
+    .billy-cards{
+        display: flex;
+        align-items: center;
+    }
+    .twoo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .threee{
+        display: flex;
+        flex-direction: column;
+    }
+    .speakers{
+        margin: 10px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        
+
+
+    }
+    .speakers_name{
+        display: flex;
+        max-width: 10px;
+        flex-direction: row;
+        max-width: max-content;
+
+    }
+    .speakers-main{
+        display: flex;
+        max-width: 350px;
+        flex-direction: row;
+         margin: 10;
+    }
+    .speakers-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .h1{
+        display: flex;
+    }
+    .button{
+        align-items: center;
+        justify-content: center;
+        margin-top: 1opx;
+    }
+
+} 

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+body{
+    padding: 10px;
+}
+@media (min-width:375px) and (max-width:768px) { 
+    .head{
+        margin: 0 0 40px 0;
+    }
+    .menu{
+      display: none;
+    }
+
+    .mobilemenu{
+        background: black;
+        height: 3px;
+        width: 35px;
+        margin: 3px;
+    }
+
+    .mymobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 100px;
+    }
+ 
+    .logoIcon img {
+        width: 80px;
+        height: 40px;
+    }
+
+    .title-MOBILE{
+        margin-top:90px ;
+        padding: 5px;
+    }
+    .title-MOBILE img{
+        width: 100%;
+     } 
+     .logo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+     }
+     .art{
+        
+        align-content: center;
+        justify-content: center;
+        border: bold;
+        margin: 10p 0 1opx;
+     }
+     .text{
+        display: flex;
+        align-items: center;
+
+     }
+     .image{
+        margin: 10px;
+        padding: 10px;
+        justify-content: center;
+        border-radius: 10px;
+     }
+     .image_u{
+        margin: 10px;
+        padding: 10px;
+        justify-content: center;
+        border-radius: 10px;
+
+     }
+     .color{
+        background-color: black;
+     }
+     .partner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        padding: 10px;
+        margin: 10px;
+        background-color:black;
+        
+     }
+ 
+ }         

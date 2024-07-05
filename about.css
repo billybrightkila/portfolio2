@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+body{
+    padding: 10px;
+}
+@media (min-width:375px) and (max-width:768px) { 
+    .head{
+        margin: 0 0 40px 0;
+    }
+    .menu{
+      display: none;
+    }
+    .title{
+        display: flex;
+        margin: 10px;
+        padding: 15px;
+        align-items: center;
+        box-sizing: border-box;
+        justify-content: bolder;
+        color:red;
+        
+   }
+    .image{
+        display: flex; 
+        margin: 5px;
+        padding: 10;   
+        background-color: black;
+    }
+    .p1{
+        
+        display: flex;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 0;
+        text-wrap: nowrap; 
+         max-width: 5px;
+
+    }
+    .p2{
+        display: flex;
+        margin: 10p;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    .p3{
+        display: flex;
+        margin: 15px;
+        padding: 10px;
+        border-radius: bold;
+        
+    }
+    .title ul{
+        display: flex;
+        margin: 15px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        border-radius: bold;
+        
+    }
+    .p4{
+        display: flex;
+        margin: 10px;
+        padding: 20px;
+    }
+    .body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main{
+        display: flex;
+
+    }
+    .cards{
+        display: flex;
+        background-color: gray;
+    }
+    .billy_one{
+        display: flex;
+        font-size: 25px;
+
+    } 
+    .ono{
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .hed{
+        align-items: center;
+        justify-content: center;
+        font-size: 5px;
+        color: red;
+    }
+    .textt{
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-size: 35px;
+    }
+    .billy_two{
+        display: flex;
+    }
+    .one{
+        flex-direction: column;
+    }
+    .twoo{
+        text-align: center;
+    }
+    .threee{
+        flex-direction: column;
+    }
+    .billy_three{
+        flex-direction: column;
+    }
+    .onee{
+        flex-direction: column;
+    }
+    .twooo{
+        flex-direction: column;
+    }
+    .threeee{
+        flex-direction: column;
+    }
+    .billy_four{
+        flex-direction: column;
+
+    }
+    .one ul{
+        flex-direction: column;
+
+    }
+    .C{
+        flex-direction: column;
+
+    }
+    .three ul{
+        flex-direction: column;
+    }
+    .billy_five{
+        display: flex;
+    }
+    .billy_five{
+        flex-direction: column;
+    }
+    .one u{
+
+
+    }
+    .two u{
+
+
+    }
+    .three u{
+
+
+    }
+    .button{
+
+
+    }
+    .Join{
+
+
+    }
+    .p{
+
+
+    }
+    .speaker{
+
+
+    }
+    .speakers{
+
+
+    }
+    .speakers-card{
+
+
+    }
+    .h2{
+
+
+    }
+    .button{
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        border: bold;
+        padding: 5px;
+    }
+}
